@@ -17,7 +17,7 @@ Ejemplo:
     False
     False
     True    
-    
+
 Enunciat:
 En aquest exercici hauràs d'implementar la funció `check_age(age)`, la qual 
 rep com a paràmetre `age`, que és un valor numèric i retorna `True` si 
@@ -40,10 +40,9 @@ Exemple:
 """
 
 def check_age(age):
-    #write your code
-    pass
-    
-  
+    return age >= 18
+
+
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
 # print(check_age(15))
